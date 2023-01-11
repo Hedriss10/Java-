@@ -1,0 +1,13 @@
+package com.java;
+
+public class OperadorLogico {
+
+	public static void main(String[] args) {
+		
+		int idade = 90;
+		boolean precisoVotar = idade >= 18 && idade < 70;
+		
+		System.out.println(precisoVotar);
+		
+	}
+}
